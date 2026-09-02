@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estúdio Valiatti | Extensão de Cílios e Sobrancelhas</title>
+</head>
+<body class="pagina-body">
+
+    <!-- ========================================== -->
+    <!-- CABEÇALHO / NAVBAR                         -->
+    <!-- ========================================== -->
+    <header class="cabecalho-principal">
+        <div class="cabecalho-conteudo">
+            
+            <!-- Logotipo e Nome do Studio -->
+            <div class="menu-logo">
+                <div class="menu-logo-icone">V</div>
+                <span class="menu-logo-texto">Studio Valiatti</span>
+            </div>
+
+            <!-- Botão do Topo (Levar para o WhatsApp) -->
+            <a href="https://wa.me/5500000000000?text=Olá!%20Gostaria%20de%20agendar%20um%20horário." 
+               target="_blank"
+               rel="noopener noreferrer"
+               class="botao-agendar-topo">
+               Agendar Horário
+            </a>
+
+        </div>
+    </header>
+
+
+    <!-- ========================================== -->
+    <!-- HERO SECTION (SEÇÃO PRINCIPAL / DESTAQUE)  -->
+    <!-- ========================================== -->
+    <section class="secao-hero">
+        <div class="hero-conteudo">
+            <div class="hero-grid">
+                
+                <!-- Coluna de Texto e Apresentação -->
+                <div class="hero-coluna-texto">
+                    
+                    <!-- Selo de Destaque -->
+                    <span class="hero-selo-destaque">
+                        <span class="hero-selo-ponto-indicador"></span>
+                        Especialista em Olhar Natural & Marcante
+                    </span>
+                    
+                    <!-- Titulo Principal -->
+                    <h1 class="hero-titulo-principal">
+                        Acorde pronta todos os dias com o <span class="hero-titulo-destaque">olhar dos sonhos</span>.
+                    </h1>
+                    
+                    <!-- Subtítulo / Descrição -->
+                    <p class="hero-descricao">
+                        Técnicas personalizadas de Extensão de Cílios e Design de Sobrancelhas para realçar sua beleza natural sem danificar seus fios.
+                    </p>
+
+                    <!-- Botões de Ação -->
+                    <div class="hero-grupo-botoes">
+                        <a href="https://wa.me/5500000000000?text=Olá!%20Vim%20pelo%20site%20e%20quero%20agendar%20um%20horário." 
+                           target="_blank"
+                           class="botao-whatsapp-hero">
+                            Agendar no WhatsApp
+                        </a>
+                        
+                        <a href="#galeria" 
+                           class="botao-portfolio-hero">
+                            Ver Resultados
+                        </a>
+                    </div>
+
+                    <!-- Prova Social -->
+                    <div class="hero-prova-social">
+                        <div class="hero-estrelas-avaliacao">★★★★★</div>
+                        <span class="hero-texto-avaliacao">+100 olhares transformados no último ano</span>
+                    </div>
+
+                </div>
+
+                <!-- Coluna da Imagem Principal -->
+                <div class="hero-coluna-imagem">
+                    <div class="hero-cartao-imagem">
+                        <div class="hero-wrapper-foto">
+                                   <img src="img_lash/foto.jpg"
+                                       alt="Profissional realizando atendimento de extensão de cílios"
+                                       fetchpriority="high"
+                                 class="hero-foto-principal">
+                        </div>
+                        
+                        <!-- Card Informativo abaixo da imagem -->
+                        <div class="hero-rodape-imagem">
+                            <div class="hero-info-servico">
+                                <p class="hero-info-subtitulo">Atendimento Personalizado</p>
+                                <p class="hero-info-titulo">Mapeamento de Olhar (Lash Mapping)</p>
+                            </div>
+                            <span class="hero-tag-exclusivo">Exclusivo</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ========================================== -->
+    <!-- PORTFÓLIO E GALERIA                       -->
+    <!-- ========================================== -->
+    <section id="galeria" class="secao-galeria">
+        <div class="galeria-conteudo">
+            
+            <!-- Cabeçalho da Seção -->
+            <div class="galeria-cabecalho">
+                <span class="galeria-tag-secao">Nosso Portfólio</span>
+                <h2 class="galeria-titulo-secao">Resultados de Dar Inveja</h2>
+                <p class="galeria-subtitulo-secao">Confira a transformação de nossas clientes por categoria.</p>
+            </div>
+
+            <!-- Botões de Filtro das Categorias -->
+            <div class="galeria-botoes-filtro">
+                <button type="button" data-filter="all" id="btn-all" class="botao-filtro item-ativo" aria-pressed="true">Todas as Fotos</button>
+                <button type="button" data-filter="cilios" id="btn-cilios" class="botao-filtro" aria-pressed="false">Extensão de Cílios</button>
+                <button type="button" data-filter="sobrancelhas" id="btn-sobrancelhas" class="botao-filtro" aria-pressed="false">Sobrancelhas & Henna</button>
+                <button type="button" data-filter="estudio" id="btn-estudio" class="botao-filtro" aria-pressed="false">Nosso Espaço</button>
+            </div>
+
+            <!-- Grid de Fotos do Portfólio -->
+            <div class="galeria-grid">
+                
+                <!-- Card 1: Cílios -->
+                <div class="cartao-galeria cilios">
+                    <div class="wrapper-imagem-galeria">
+                        <img src="img_lash/img1.jpeg" alt="Resultado de volume brasileiro" class="foto-galeria" loading="lazy">
+                    </div>
+                    <div class="conteudo-cartao-galeria">
+                        <span class="categoria-cartao">Cílios</span>
+                        <h3 class="titulo-cartao">Volume Brasileiro / Tecnológico</h3>
+                        <p class="descricao-cartao">Preenchimento leve com acabamento marcante e ótima retenção.</p>
+                    </div>
+                </div>
+
+                <!-- Card 2: Sobrancelhas -->
+                <div class="cartao-galeria sobrancelhas">
+                    <div class="wrapper-imagem-galeria">
+                        <img src="img_lash/img2.jpeg" alt="Resultado de design de sobrancelhas" class="foto-galeria" loading="lazy">
+                    </div>
+                    <div class="conteudo-cartao-galeria">
+                        <span class="categoria-cartao">Sobrancelhas</span>
+                        <h3 class="titulo-cartao">Design Personalizado com Henna</h3>
+                        <p class="descricao-cartao">Simetria perfeita respeitando o desenho natural do seu rosto.</p>
+                    </div>
+                </div>
+
+                <!-- Card 3: Cílios -->
+                <div class="cartao-galeria cilios">
+                    <div class="wrapper-imagem-galeria">
+                        <img src="img_lash/img3.jpeg" alt="Resultado de lash lifting" class="foto-galeria" loading="lazy">
+                    </div>
+                    <div class="conteudo-cartao-galeria">
+                        <span class="categoria-cartao">Cílios</span>
+                        <h3 class="titulo-cartao">Lash Lifting + Nutrição</h3>
+                        <p class="descricao-cartao">Curvatura e tingimento dos seus próprios cílios naturais.</p>
+                    </div>
+                </div>
+
+                <!-- Card 4: Sobrancelhas -->
+                <div class="cartao-galeria sobrancelhas">
+                    <div class="wrapper-imagem-galeria">
+                        <img src="img_lash/img4.jpeg" alt="Resultado de brow lamination" class="foto-galeria" loading="lazy">
+                    </div>
+                    <div class="conteudo-cartao-galeria">
+                        <span class="categoria-cartao">Sobrancelhas</span>
+                        <h3 class="titulo-cartao">Brow Lamination</h3>
+                        <p class="descricao-cartao">Fios alinhados, encorpados e com efeito selvagem/moderno.</p>
+                    </div>
+                </div>
+
+                <!-- Card 5: Nosso Espaço -->
+                <div class="cartao-galeria estudio">
+                    <div class="wrapper-imagem-galeria">
+                        <img src="img_lash/img5.jpeg" alt="Maca confortável do estúdio" class="foto-galeria" loading="lazy">
+                    </div>
+                    <div class="conteudo-cartao-galeria">
+                        <span class="categoria-cartao">Nosso Espaço</span>
+                        <h3 class="titulo-cartao">Maca Ergonômica VIP</h3>
+                        <p class="descricao-cartao">Conforto absoluto para você relaxar enquanto cuidamos de você.</p>
+                    </div>
+                </div>
+
+                <!-- Card 6: Cílios -->
+                <div class="cartao-galeria cilios">
+                    <div class="wrapper-imagem-galeria">
+                        <img src="img_lash/img6.jpeg" alt="Resultado de extensão fio a fio clássica" class="foto-galeria" loading="lazy">
+                    </div>
+                    <div class="conteudo-cartao-galeria">
+                        <span class="categoria-cartao">Cílios</span>
+                        <h3 class="titulo-cartao">Fio a Fio Clássico</h3>
+                        <p class="descricao-cartao">Efeito rímel impecável, discreto e ideal para o dia a dia.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ========================================== -->
+    <!-- DIFERENCIAIS / POR QUE NOS ESCOLHER        -->
+    <!-- ========================================== -->
+    <section class="secao-diferenciais">
+        <div class="diferenciais-conteudo">
+            
+            <div class="diferenciais-cabecalho">
+                <h2 class="diferenciais-titulo">Por que cuidar do seu olhar conosco?</h2>
+                <p class="diferenciais-subtitulo">Prezamos pela saúde dos seus fios naturais em primeiro lugar.</p>
+            </div>
+
+            <!-- Grid com os Diferenciais -->
+            <div class="diferenciais-grid">
+                
+                <!-- Card Diferencial 1 -->
+                <div class="cartao-diferencial">
+                    <div class="icone-diferencial">✨</div>
+                    <h3 class="titulo-diferencial">Isolamento Impecável</h3>
+                    <p class="descricao-diferencial">Nada de fios grudados ou desconforto! Garantimos a preservação e o crescimento dos seus cílios naturais.</p>
+                </div>
+
+                <!-- Card Diferencial 2 -->
+                <div class="cartao-diferencial">
+                    <div class="icone-diferencial">💎</div>
+                    <h3 class="titulo-diferencial">Produtos Premium & Anvisa</h3>
+                    <p class="descricao-diferencial">Trabalhamos apenas com colas e pigmentos hipoalergênicos testados e aprovados pela Anvisa.</p>
+                </div>
+
+                <!-- Card Diferencial 3 -->
+                <div class="cartao-diferencial">
+                    <div class="icone-diferencial">☕</div>
+                    <h3 class="titulo-diferencial">Experiência Relaxante</h3>
+                        <p class="descricao-diferencial">Ambiente climatizado, aroma agradável, café e maca ergonômica para você relaxar durante o procedimento.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ========================================== -->
+    <!-- DÚVIDAS FREQUENTES (FAQ)                  -->
+    <!-- ========================================== -->
+    <section class="secao-faq">
+        <div class="faq-conteudo">
+            <h2 class="faq-titulo-secao">Dúvidas Frequentes</h2>
+            
+            <div class="faq-lista">
+                
+                <!-- Item FAQ 1 -->
+                <details class="faq-item">
+                    <summary class="faq-pergunta">
+                        <span>Extensão de cílios estraga os meus fios naturais?</span>
+                        <span class="faq-icone-seta">↓</span>
+                    </summary>
+                    <p class="faq-resposta">
+                        Não! Quando a extensão é feita com isolamento correto, peso adequado e por uma profissional qualificada, seus fios naturais continuam crescendo e se renovando normalmente.
+                    </p>
+                </details>
+
+                <!-- Item FAQ 2 -->
+                <details class="faq-item">
+                    <summary class="faq-pergunta">
+                        <span>Quanto tempo dura a extensão de cílios?</span>
+                        <span class="faq-icone-seta">↓</span>
+                    </summary>
+                    <p class="faq-resposta">
+                        A manutenção é recomendada a cada 15 a 21 dias para manter o preenchimento bonito, acompanhando o ciclo de crescimento dos seus fios naturais.
+                    </p>
+                </details>
+
+                <!-- Item FAQ 3 -->
+                <details class="faq-item">
+                    <summary class="faq-pergunta">
+                        <span>Quanto tempo demora o procedimento?</span>
+                        <span class="faq-icone-seta">↓</span>
+                    </summary>
+                    <p class="faq-resposta">
+                        O procedimento inicial dura cerca de 1h30 a 2h, dependendo da técnica escolhida. O design de sobrancelhas dura cerca de 30 a 45 minutos.
+                    </p>
+                </details>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ========================================== -->
+    <!-- RODAPÉ                                     -->
+    <!-- ========================================== -->
+    <footer class="rodape-principal">
+        <div class="rodape-conteudo">
+            <p class="rodape-nome-marca">Studio Valiatti</p>
+            <p class="rodape-endereco">Atendimento presencial em: Rua Exemplo, 123 - Centro | Cidade - UF</p>
+            <p class="rodape-direitos">© 2026 Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+
+    <!-- ========================================== -->
+    <!-- BOTÃO FLUTUANTE DO WHATSAPP               -->
+    <!-- ========================================== -->
+    <a href="https://wa.me/5500000000000?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20consultar%20os%20horários%20disponíveis." 
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Agendar via WhatsApp"
+       class="botao-flutuante-whatsapp">
+    <svg class="icone-whatsapp-svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+           <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/>
+       </svg>
+    </a>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
